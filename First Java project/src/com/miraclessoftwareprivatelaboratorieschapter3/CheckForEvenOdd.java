@@ -10,7 +10,7 @@ public class CheckForEvenOdd {
 		int length = keyboard.nextInt();
 		double [] arr = new double[length];
 		for(int counter=0;counter<length;counter++) {
-			System.out.println("Please enter the numbers "+counter);
+			System.out.println("Please enter the numbers ["+counter+1+"]");
 			arr[counter]=keyboard.nextDouble();
 		}
 		for(int counter=0;counter<length;counter++) {
