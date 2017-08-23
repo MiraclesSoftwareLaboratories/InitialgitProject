@@ -20,5 +20,6 @@ public class FactoraiOFNumber {
 			return(num*factorial(num-1));
 	}
 	
+	
 
 }

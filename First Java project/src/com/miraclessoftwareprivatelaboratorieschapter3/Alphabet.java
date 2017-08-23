@@ -1,9 +1,14 @@
 package com.miraclessoftwareprivatelaboratorieschapter3;
+import java.io.File;
+import java.io.FileReader;
 import java.util.Scanner;
 public class Alphabet {
 	public static void main(String[] args) {
         int n;
         String temp;
+        File f=new File("abc.txt");
+        FileReader fr = new FileReader(f);
+        fr.close();
         Scanner s = new Scanner(System.in);
         System.out.print("Enter number of names you want to enter:");
         n = s.nextInt();
