@@ -25,10 +25,10 @@ public class Alphabet {
                 }
             }
         }
-        System.out.print("Names in Sorted Order:");
+        System.out.println("Names in Sorted Order:");
         for (int i = 0; i < n - 1; i++) 
         {
-            System.out.print("\n" + names[i]);
+            System.out.print(names[i]+" ");
         }
         System.out.print(names[n - 1]);
     }

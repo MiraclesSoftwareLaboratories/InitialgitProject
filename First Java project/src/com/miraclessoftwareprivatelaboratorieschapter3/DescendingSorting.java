@@ -10,7 +10,7 @@ public class DescendingSorting {
 		Calendar cal = Calendar.getInstance();
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 		System.out.println(sdf.format(cal.getTime()));
-		long millis = System.currentTimeMillis() % 1000;
+		long millis = System.currentTimeMillis(); 
 		System.out.println(millis);
 		int length;
 		int counter;
