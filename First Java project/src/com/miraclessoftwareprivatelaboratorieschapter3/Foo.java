@@ -11,6 +11,6 @@ class Bar extends Foo{
 class Test{
 	public static void main(String[] args) {
 		Foo reallyABar = new Bar();
-		Bar reallyAFoo = new Foo();
+		//Bar reallyAFoo = new Foo();
 	}
 }

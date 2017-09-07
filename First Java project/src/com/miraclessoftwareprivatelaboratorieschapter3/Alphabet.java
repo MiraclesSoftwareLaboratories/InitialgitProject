@@ -19,7 +19,7 @@ public class Alphabet {
         {
             for (int j = i + 1; j < n; j++) 
             {
-                if (names[i].compareTo(names[j])>0) 
+                if (names[i].compareToIgnoreCase(names[j])>0) 
                 {
                     temp = names[i];
                     names[i] = names[j];

@@ -17,11 +17,11 @@ public class AlphabetChanged {
 		for(counter1=0;counter1<number;counter1++) {
 			names[counter1]=scan2.nextLine();
 		}
-		/*for(counter1=0;counter1<number;counter1++) {
+		for(counter1=0;counter1<number;counter1++) {
 			for(counter2=0;counter2<number;counter2++) {
 				names2[counter2]=names[counter1].toLowerCase();
 			}
-		}*/
+		}
 		for(counter1=0;counter1<number;counter1++) {
 			for(counter2=counter1+1;counter2<number;counter2++) {
 				if(names2[counter1].compareTo(names2[counter2])>0) {
