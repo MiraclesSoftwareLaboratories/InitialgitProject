@@ -8,8 +8,13 @@ import java.util.Calendar;
 public class DescendingSorting {
 	public static void main(String[] args) {
 		Calendar cal = Calendar.getInstance();
+		int day = cal.get(Calendar.DAY_OF_WEEK);
+		System.out.println(day);
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 		System.out.println(sdf.format(cal.getTime()));
+		if(sdf.format(cal.getTime())=="7:00:00") {
+			System.out.println("H");
+		}
 		long millis = System.currentTimeMillis(); 
 		System.out.println(millis);
 		int length;
@@ -28,8 +33,9 @@ public class DescendingSorting {
 			System.out.print(arr[i]+" ");
 		}
 		input.close();
+		long millis1 = System.currentTimeMillis(); 
 		System.out.println("\n"+sdf.format(cal.getTime()));
-		System.out.println(millis);
+		System.out.println(millis1);
 		
 	}
 	public static int[] insertSortingDescending(int[] Arr) {
