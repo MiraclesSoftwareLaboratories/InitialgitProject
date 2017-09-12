@@ -18,7 +18,7 @@ public class StringAddition {
 			System.out.println(string);
 		}
 		else {
-			string = "Not"+string;
+			string = "Not "+string;
 			System.out.println(string);
 		}
 		scan.close();
