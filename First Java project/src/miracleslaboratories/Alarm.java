@@ -35,7 +35,7 @@ public class Alarm {
 		    		}
 		    		if(flag) {
 		    			System.out.println("You entered National Holiday!");
-		    			alarmclock();
+		    			nationalholidayalarm();
 		    			}
 		    		else {
 		    			System.out.println("No national holiday");
@@ -53,10 +53,12 @@ public class Alarm {
 		    }
 		    
 		}
+		else
+			System.out.println("Your entered date is not valid");
 		
 		input.close();
 	}
-	public static void alarmclock() {
+	public static void nationalholidayalarm() {
 		LocalTime now = LocalTime.now();
 		SimpleDateFormat sdf = new SimpleDateFormat("EEE");
 		LocalTime alarmNationalHoliday = LocalTime.parse("07:00");
