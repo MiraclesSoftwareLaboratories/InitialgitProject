@@ -20,7 +20,7 @@ public class Exception {
 			//throw new FileNotFoundException();
 			FileNotFoundException fe = new FileNotFoundException();
 			throw fe;
-			fs.read();
+			//fs.read();
 		//}
 		/*catch(FileNotFoundException e){
 			System.out.println(e.getMessage());
@@ -28,10 +28,10 @@ public class Exception {
 		catch(IOException e) {
 			System.out.println("Inside IOException"+e.getMessage());
 		}*/
-		System.out.println("");
-		System.err.println();
+	//	System.out.println("");
+	//	System.err.println();
 	
-		fs.close();
+	//	fs.close();
 		
 	}
 }
