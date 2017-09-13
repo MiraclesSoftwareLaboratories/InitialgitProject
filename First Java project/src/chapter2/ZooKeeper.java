@@ -2,7 +2,7 @@ package chapter2;
 //Question 13
 public class ZooKeeper {
 	public static void main(String[] args) {
-		new Zookeeper().go();
+		//new Zookeeper().go();
 	}
 	void go() {
 		Mammal m = new Zebra();

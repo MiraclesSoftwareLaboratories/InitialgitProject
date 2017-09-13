@@ -7,7 +7,7 @@ public class DogShow {
 	void go() {
 		  new Hound().bark();
 		  ((Dog) new Hound()).bark();
-		  ((Dog) new Hound()).sniff();
+		 // ((Dog) new Hound()).sniff();
 	}
 }
 class Dog {

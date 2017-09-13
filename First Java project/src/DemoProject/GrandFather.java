@@ -30,8 +30,8 @@ public class GrandFather {
 			System.out.println(obj1.grandFatherName);
 			System.out.println("Hello");
 		}
-	}
-	class Child extends Father{
+//	}
+	/*class Child extends Father{
 		public void secondmethod() {
 			GrandFather obj2 = new GrandFather();
 			Father obj3 = new Father("Hello");
@@ -46,10 +46,10 @@ public class GrandFather {
 			System.out.println(obj4);
 			System.out.println(obj5);
 			System.out.println(obj6);
-		}
+		}*/
 	}
 		
-	}
+//	}
 		
 		
 

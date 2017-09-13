@@ -14,10 +14,10 @@ class Animal{
 	}
 	Lion obj = new Lion();
 	public static void main(String[] args) {
-	int result=obj.eat();
-	System.out.println(result);
-	int value=obj.eat(a);
-	System.out.println(value);
+	//int result=obj.eat();
+	//System.out.println(result);
+	//int value=obj.eat(a);
+	//System.out.println(value);
 		
 	}
 }

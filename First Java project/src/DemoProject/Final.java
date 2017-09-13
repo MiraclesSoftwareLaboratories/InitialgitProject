@@ -4,7 +4,7 @@ public class Final {
 	final int SPEED_LIMIT=90;
 	void run() {
 		System.out.println(SPEED_LIMIT);
-		SPEED_LIMIT=40;
+		//SPEED_LIMIT=40;
 	}
 	void calculate(final int no, int count) {
 		count = 5;

@@ -10,7 +10,7 @@ public class FinalInheritance {
 	}
 }
 class Regular extends FinalInheritance{
-	void run() {
-		System.out.println("hoo");
-	}
+	//void run() {
+	//	System.out.println("hoo");
+	//}
 }

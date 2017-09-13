@@ -7,6 +7,6 @@ public class BadOOP {
 class ExploitBadOOP{
 	public static void main(String[] args) {
 		BadOOP bo = new BadOOP();
-		b.size = -5;
+		//b.size = -5;
 	}
 }

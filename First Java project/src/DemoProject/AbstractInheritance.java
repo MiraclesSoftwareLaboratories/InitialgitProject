@@ -26,10 +26,10 @@ public class AbstractInheritance extends AbstractClassExample {
 	}
 	public static void main(String[] args) {
 		AbstractInheritance abs1= new AbstractInheritance("Rahul","A",71,10);
-		AbstractClassExample obj2= new AbstractClassExample("Amit","C",67,5);
+		//AbstractClassExample obj2= new AbstractClassExample("Amit","C",67,5);
 		System.out.println("Hey you there");
 		abs1.getAbstractClassExampleName();
-		obj2.getAbstractClassExampleName();
+		//obj2.getAbstractClassExampleName();
 		System.out.println("Byee!!!");
 		
 		

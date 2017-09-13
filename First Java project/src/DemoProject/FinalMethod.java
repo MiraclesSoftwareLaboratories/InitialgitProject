@@ -5,13 +5,13 @@ public class FinalMethod {
 		System.out.println("Running");
 	}
 	class Amit extends FinalMethod{
-		void run() {
-			System.out.println("Running safely with 100km");
-		}
-		public static void main(String[] args) {
+	//	void run() {
+	//		System.out.println("Running safely with 100km");
+	//	}
+	//	public static void main(String[] args) {
 			Amit obj1= new Amit();
-			obj1.run();
-		}
+	//		obj1.run();
+	//	}
 	}
 }
 	

@@ -11,7 +11,7 @@ package com.miracles.july15;
 		static TestEnum_a a;
 		public static void main(String[] args) {
 		        System.out.println(TestEnum_a.DOG.sound + " " + TestEnum_a.FISH.sound);
-		        TestEnum_a.values()
+		        TestEnum_a.values();
 	}
 }
 

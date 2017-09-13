@@ -10,6 +10,6 @@ class Announce{
 		Boolean []ba[];
 		int [] y;
 		
-		enum Trafic("RED", "YELLOW", "GREEN");
+		//enum Trafic("RED", "YELLOW", "GREEN");
 	}
 }

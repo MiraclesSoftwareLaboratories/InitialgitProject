@@ -33,8 +33,8 @@ abstract class AbstractClassExample {
 }
 class AbstractDemo{
 	public static void main(String[] args) {
-		AbstractClassExample obj1= new AbstractClassExample("Amit","C",75);
+		//AbstractClassExample obj1= new AbstractClassExample("Amit","C",75);
 		System.out.println("Hello");
-		obj1.getAbstractClassExampleName();
+		//obj1.getAbstractClassExampleName();
 	}
 }

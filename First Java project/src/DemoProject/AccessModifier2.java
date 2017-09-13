@@ -24,8 +24,8 @@ class Test{
 
 	public static void main(String[] args) {
 		AccessModifier2 obj=new AccessModifier2("Amit",23);
-		System.out.println(obj.accessModifier2Name);
-		System.out.println(obj.accessModifier2Birth);
+		//System.out.println(obj.accessModifier2Name);
+		//System.out.println(obj.accessModifier2Birth);
 	}
 	
 	
